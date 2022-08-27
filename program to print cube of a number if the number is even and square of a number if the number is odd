@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+      Scanner sc  = new Scanner(System.in);
+      int n  =sc.nextInt();
+      if(n %2 == 0){
+          System.out.println("cube of number  is  " + n*n*n);
+      }
+      else{
+          System.out.println("square of the number is  " +n*n);
+      }
+    }
+}
